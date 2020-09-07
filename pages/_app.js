@@ -1,15 +1,14 @@
-import '../styles/globals.css'
+import '../styles/globals.css';
+import Header from '../components/header';
+
 
 function MyApp({ Component, pageProps }) {
-  return(<>
-  <header>
-    <h1>greetings</h1>
-    <nav>
-
-    </nav>
-  </header>
+  return(
+  <> 
+  <Header /> 
   <Component {...pageProps} />
-  </>);
+  </>
+  );
 }
 
-export default MyApp
+export default MyApp;
